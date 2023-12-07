@@ -1,6 +1,6 @@
 package programs.practice;
 
-public class Test {
+public class Test extends Sample{
 	
 	
 	Test1 t1;
@@ -17,6 +17,7 @@ public class Test {
 	}
 	
 	
+	
 	public static void main(String[] args) {
 
 		Test2 obj2 = new Test2();
@@ -31,7 +32,7 @@ public class Test {
 		double result2 = obj1.square(6);
 		System.out.println("square of 6: "+result2);
 		
-		
+	
 		
 	}
 
